@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    background-color: #031320;
+    padding: 20px;
+}
+.logo_pic{
+    color: green;
+    font-size: 60px;
+}
+.cards{
+ display: flex;
+ flex-wrap: wrap;
+ text-align: center;
+ background-color: #182E3D ;
+}
+.card{
+    width: calc((100%/3) - 20px);
+    margin-right: 20px ;
+    margin-top: 20px;
+    color: white;
+}
