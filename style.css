@@ -3,10 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
 
+.index{
+    background-color: #182E3D;
+    height: 100%;
+}
 .logo{
     background-color: #031320;
     padding: 20px;
+    padding-left: 200px;
 }
 .logo_pic{
     color: green;
@@ -15,12 +24,27 @@
 .cards{
  display: flex;
  flex-wrap: wrap;
- text-align: center;
- background-color: #182E3D ;
+ padding: 20px;
 }
 .card{
     width: calc((100%/3) - 20px);
     margin-right: 20px ;
     margin-top: 20px;
     color: white;
+    background-color: #0C2131;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px ;
+}
+.card div{
+    margin-top: 15px;
+}
+.title, .year{
+    font-weight: bold;
+}
+.title{
+    margin-top: 10px;
+}
+.card img{
+    width: 200px;
 }

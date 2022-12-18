@@ -18,16 +18,16 @@
             </div>
         </div>
     </header>
-    <div id="app">
+    <div id="app" class="index">
         <main>
             <div class="cards container">
                 <div class="card" v-for="disk in dischi">
-                    <div>
+                    <div class="poster">
                         <img :src="disk.poster" alt="">
                     </div>
-                    <div>{{disk.title}}</div>
+                    <h2 class="title">{{disk.title}}</h2>
                     <div>{{disk.author}}</div>
-                    <div>{{disk.year}}</div>
+                    <div class="year">{{disk.year}}</div>
                 </div>
             </div>
         </main>
